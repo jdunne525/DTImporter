@@ -15,7 +15,6 @@ Limitations of the tool:  (I threw this together in 2 hours, so don't expect per
 //The tool only supports ONE ITEM PER LINE!!  
 //So, if you've got 0xC0, 0xC0 on a single line to end 2 collections, the tool will FAIL to import that data.
 
-No change to DTImporter.
 Updated DT.exe's library files to the latest files from the USB-IF CV test
 suite.
 
