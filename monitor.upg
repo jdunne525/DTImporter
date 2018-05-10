@@ -1,0 +1,8 @@
+Monitor
+NORMAL
+00	Undefined
+01	Monitor Control
+02	EDID Information
+03	VDIF Information
+04	VESA Version
+05-FFFF	Reserved

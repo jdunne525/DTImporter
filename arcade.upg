@@ -1,0 +1,32 @@
+OAAF Arcade
+NORMAL
+00	Undefined
+01	General Purpose IO Card
+02	Coin Door
+03	Watchdog Timer
+04-2F	Reserved
+30	General Purpose Analog Input State
+31	General Purpose Digital Input State
+32	General Purpose Optical Input State
+33	General Purpose Digital Output State
+34	Number of Coin Doors 
+35	Coin Drawer Drop Count
+36	Coin Drawer Start
+37	Coin Drawer Service
+38	Coin Drawer Tilt
+39	Coin Door Test
+40	Coin Door Lockout
+41	Watchdog Timeout
+42	Watchdog Action
+43	Watchdog Reboot
+44	Watchdog Restart
+45	Alarm Input
+46	Coin Door Counter
+47	I/O Direction Mapping
+48	Set I/O Direction
+49	Extended Optical Input State
+4A	Pin Pad Input State
+4B	Pin Pad Status
+4C	Pin Pad Output
+4D	Pin Pad Command
+4E-FFFF	Reserved

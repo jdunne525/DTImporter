@@ -1,0 +1,221 @@
+Page Bar Code Scanner
+NORMAL
+00	Undefined
+01	Bar Code Badge Reader
+02	Bar Code Scanner
+03	Dumb Bar Code Scanner
+04	Cordless Scanner Base
+05	Bar Code Scanner Cradle
+06-0F	Reserved
+10	Attribute Report
+11	Settings Report
+12	Scanned Data Report
+13	Raw Scanned Data Report
+14	Trigger Report
+15	Status Report
+16	UPC/EAN Control Report
+17	EAN 2/3 Label Control Report
+18	Code 39 Control Report
+19	Interleaved 2 of 5 Control Report
+1A	Standard 2 of 5 Control Report
+1B	MSI Plessey Control Report
+1C	Codabar Control Report
+1D	Code 128 Control Report
+1E	Misc 1D Control Report
+1F	2D Control Report
+20-2F	Reserved
+30	Aiming/Pointer Mode
+31	Bar Code Present Sensor
+32	Class 1A Laser
+33	Class 2 Laser
+34	Heater Present
+35	Contact Scanner
+36	Electronic Article Surveillance Notification
+37	Constant Electronic Article Surveillance
+38	Error Indication
+39	Fixed Beeper
+3A	Good Decode Indication
+3B 	Hands Free Scanning
+3C	Intrinsically Safe
+3D	Klasse Eins Laser
+3E	Long Range Scanner
+3F	Mirror Speed Control
+40	Not On File Indication
+41	Programmable Beeper
+42	Triggerless
+43	Wand
+44	Water Resistant
+45	Multi-Range Scanner
+46	Proximity Sensor
+47-4C	Reserved
+4D	Fragment Decoding
+4E	Scanner Read Confidence
+4F	Data Prefix
+50	Prefix AIMI
+51	Prefix None
+52	Prefix Proprietary
+53-54	Reserved
+55	Active Time
+56	Aiming Laser Pattern
+57	Bar Code Present
+58	Beeper State
+59	Laser On Time
+5A	Laser State
+5B	Lockout Time
+5C	Motor State
+5D	Motor Timeout
+5E	Power On Reset Scanner
+5F	Prevent Read of Barcodes
+60	Initiate Barcode Read
+61	Trigger State
+62	Trigger Mode
+63	Trigger Mode Blinking Laser On
+64	Trigger Mode Continuous Laser On
+65	Trigger Mode Laser on while Pulled
+66	Trigger Mode Laser stays on after Trigger release
+67-6C	Reserved
+6D	Commit Parameters to NVM
+6E	Parameter Scanning
+6F	Parameters Changed
+70	Set parameter default values
+71-74	Reserved
+75	Scanner In Cradle
+76	Scanner In Range
+77-79	Reserved
+7A	Aim Duration
+7B	Good Read Lamp Duration
+7C	Good Read Lamp Intensity
+7D	Good Read LED
+7E	Good Read Tone Frequency
+7F	Good Read Tone Length
+80	Good Read Tone Volume
+81	Reserved
+82	No Read Message
+83	Not on File Volume
+84	Powerup Beep
+85	Sound Error Beep
+86	Sound Good Read Beep
+87	Sound Not On File Beep
+88	Good Read When to Write
+89	GRWTI After Decode
+8A	GRWTI Beep/Lamp after transmit
+8B	GRWTI No Beep/Lamp use at all
+8C-90	Reserved
+91	Bookland EAN
+92	Convert EAN 8 to 13 Type
+93	Convert UPC A to EAN-13
+94	Convert UPC-E to A
+95	EAN-13
+96	EAN-8
+97	EAN-99 128_Mandatory
+98	EAN-99 P5/128_Optional
+99	Reserved
+9A	UPC/EAN
+9B	UPC/EAN Coupon Code 
+9C	UPC/EAN Periodicals
+9D	UPC-A
+9E	UPC-A with 128 Mandatory
+9F	UPC-A with 128 Optional
+A0	UPC-A with P5 Optional
+A1	UPC-E
+A2	UPC-E1
+A2-A8	Reserved
+A9	Periodical
+AA	Periodical Auto-Discriminate + 2
+AB	Periodical Only Decode with + 2
+AC	Periodical Ignore + 2
+AD	Periodical Auto-Discriminate + 5
+AE	Periodical Only Decode with + 5
+AF	Periodical Ignore + 5
+B0	Check
+B1	Check Disable Price
+B2	Check Enable 4 digit Price
+B3	Check Enable 5 digit Price
+B4	Check Enable European 4 digit Price
+B5	Check Enable European 5 digit Price
+B6	Reserved
+B7	EAN Two Label 
+B8	EAN Three Label
+B9	EAN 8 Flag Digit 1
+BA	EAN 8 Flag Digit 2
+BB	EAN 8 Flag Digit 3
+BC	EAN 13 Flag Digit 1
+BD	EAN 13 Flag Digit 2
+BE	EAN 13 Flag Digit 3
+BF	Add EAN 2/3 Label Definition
+C0	Clear all EAN 2/3 Label Definitions
+C1	Reserved
+C2	Reserved
+C3	Codabar
+C4	Code 128
+C5	Reserved
+C6	Reserved
+C7	Code 39
+C8	Code 93
+C9	Full ASCII Conversion
+CA	Interleaved 2 of 5
+CB	Italian Pharmacy Code
+CC	MSI/Plessey
+CD	Standard 2 of 5 IATA
+CE	Standard 2 of 5
+CF	Reserved
+D0	Reserved
+D1	Reserved
+D2	Reserved
+D3	Transmit Start/Stop
+D4	Tri-Optic 
+D5	UCC/EAN-128
+D6	Check Digit
+D7	Check Digit Disable
+D8	Check Digit Enable Interleaved 2 of 5 OPCC
+D9	Check Digit Enable Interleaved 2 of 5 USS
+DA	Check Digit Enable Standard 2 of 5 OPCC
+DB	Check Digit Enable Standard 2 of 5 USS
+DC	Check Digit Enable One MSI Plessey
+DD	Check Digit Enable Two MSI Plessey
+DE	Check Digit Codabar Enable
+DF	Check Digit Code 39 Enable
+E0-EF	Reserved
+F0	Transmit Check Digit
+F1	Disable Check Digit Transmit
+F2	Enable Check Digit Transmit
+F3-FA	Reserved
+FB	Symbology Identifier 1
+FC	Symbology Identifier 2
+FD	Symbology Identifier 3
+FE	Decoded Data
+FF	Decode Data Continued
+100	Bar Space Data
+101	Scanner Data Accuracy
+102	Raw Data Polarity
+103	Polarity Inverted Bar Code
+104	Polarity Normal Bar Code
+105	Reserved
+106	Minimum Length to Decode
+107	Maximum Length to Decode
+108	First Discrete Length to Decode
+109	Second Discrete Length to Decode
+10A	Data Length Method
+10B	DL Method Read any
+10C	DL Method Check in Range
+10D	DL Method Check for Discrete
+10E-10F	Reserved
+110	Aztec Code
+111	BC412
+112	Channel Code
+113	Code 16
+114	Code 32
+115	Code 49
+116	Code One
+117	Colorcode
+118	Data Matrix
+119	MaxiCode
+11A	MicroPDF 
+11B	PDF-417
+11C	PosiCode
+11D	QR Code
+11E	SuperCode
+11F	UltraCode
+120	USD-5 (Slug Code)
+121	VeriCode
+122-FFFF	Reserved
